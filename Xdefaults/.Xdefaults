@@ -1,18 +1,30 @@
 r00t@666:~$ cat .Xdefaults
- urxvt*loginShell:true
+
+urxvt*background:       #000000
+urxvt*foreground:       #cccccc
+
+urxvt*background:       rgba:0000/0000/0000/cccc
+
+URxvt.transparent:   true
+URxvt.tintColor:     white
+URxvt.shading:       50 
+
+
+urxvt*loginShell:true
 urxvt*inheritPixmap: true
-urxvt*tintColor: white
-urxvt*transparent:true
-urxvt*shading:40
-urxvt*background:Black
-urxvt*foreground:White
+
 urxvt*scrollBar:true
 urxvt*scrollBar_right:true
 urxvt*transpscrollbar:true
+
 urxvt*saveLines:50000
+
 URxvt*font: xft:ShureTechMono Nerd Font Mono:size=12
+
 URxvt.perl-ext-common: default,matcher
+
 URxvt.urlLauncher: firefox
+
 URxvt.matcher.button: 2
 URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&amp;@#-]*[\\w/-]
 
@@ -48,4 +60,3 @@ URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&amp;@#-]*[\\w/-]
 *color7:   #d3d7cf
 *color15:  #eeeeec
 
-r00t@666:~$
