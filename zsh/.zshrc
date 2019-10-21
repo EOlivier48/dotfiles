@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+  export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/ethan/.oh-my-zsh
@@ -232,3 +232,9 @@ alias station="cd ~/potenza/station"
 alias modules="cd ~/potenza/station/app/application/modules"
 alias application="cd ~/potenza/station/app/application"
 alias upgrade="sudo apt-get update && sudo apt-get upgrade"
+alias toolbox="cd ~/.local/share/JetBrains/Toolbox/bin"
+alias datagrip="cd ~/.local/share/JetBrains/Toolbox/apps/datagrip/ch-0/183.5429.24/bin"
+alias launch_datagrip="cd ~/.local/share/JetBrains/Toolbox/apps/datagrip/ch-0/183.6156.3/bin && bash datagrip.sh"
+alias launch_toolbox="cd ~/.local/share/JetBrains/Toolbox/bin && ./jetbrains-toolbox"
+
+
